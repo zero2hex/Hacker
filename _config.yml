@@ -1,0 +1,10 @@
+menu:
+  Home: /
+  Archives: /archives
+
+# duoshuo comment
+duoshuo: true
+duoshuo_name: 
+
+# google analytics
+googleTrackId: 
