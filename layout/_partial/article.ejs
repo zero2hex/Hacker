@@ -26,19 +26,17 @@
       <% } %>
     </div>
     <footer class="article-footer">
-        <% if (item.excerpt){ %>
-          <div class="article-meta pull-left">
-            <span class="post-categories">
-              <i class="icon-categories"></i>
-              <%- partial('post/category') %>
-            </span>
-            <span class="post-tags">
-              <i class="icon-tags"></i>
-              <%- partial('post/tag') %>
-            </span>
-          </div>
-        <% } %>
-        <% if (index){ %>
+        <div class="article-meta pull-left">
+          <span class="post-categories">
+            <i class="icon-categories"></i>
+            <%- partial('post/category') %>
+          </span>
+          <span class="post-tags">
+            <i class="icon-tags"></i>
+            <%- partial('post/tag') %>
+          </span>
+        </div>
+        <% if (index && theme.duoshuo){ %>
 
         <div class="article-meta pull-right">
           <span>

@@ -211,12 +211,6 @@ strong {
     font-weight: bold;
 }
 
-code,
-pre {
-    font-size: .9em;
-    line-height: 1.5;
-    background-color: #F3F2ED;
-}
 
 pre {
     border-radius: 3px;
