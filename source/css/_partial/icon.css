@@ -1,5 +1,3 @@
-/* ##Icons
----------------------------------*/
 .icon-meta {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -24,13 +22,6 @@
     background-size: 18px 18px;
 }
 
-.icon-heart {
-    display: inline-block;
-    width: 19px;
-    height: 17px;
-    background: url(../../images/icon-heart.svg) center center no-repeat;
-    background-size: 19px 17px;
-}
 
 .icon-tags {
     display: inline-block;

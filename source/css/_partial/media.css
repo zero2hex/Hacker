@@ -12,3 +12,12 @@
     width: 100%;
     height: 100%;
 }
+
+.featured-media {
+    margin-bottom: 1.5rem;
+}
+
+.featured-media img {
+    width: 100%;
+    height: auto;
+}

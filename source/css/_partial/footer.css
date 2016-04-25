@@ -1,22 +1,11 @@
 .site-footer {
     position: relative;
     text-align: center;
-    margin-top: 4rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
     color: #9e9e9e;
 }
 
-.site-footer:before {
-    content: '';
-    width: 100px;
-    height: 1px;
-    background-color: #eee;
-    position: absolute;
-    top: 0;
-    left: calc(50% - 50px);
-}
-
-.site-footer .meta {
+.site-footer .site-info {
     color: #9e9e9e;
     font-size: 1.3rem;
     margin: 0.5rem 0;
