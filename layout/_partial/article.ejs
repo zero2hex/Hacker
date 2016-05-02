@@ -30,7 +30,7 @@
           <%- partial('post/category') %>
           <%- partial('post/tag') %>
         </div>
-        <% if (index && theme.duoshuo){ %>
+        <% if (index && (theme.duoshuo || theme.disqus)){ %>
         <div class="article-meta pull-right">
           <span>
             <i class="icon-comments"></i>
