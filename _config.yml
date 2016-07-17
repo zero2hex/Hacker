@@ -1,14 +1,15 @@
 menu:
   Home: /
   Archives: /archives
+  Tags: /tags
 
 # duoshuo comment
 duoshuo: false
 duoshuo_name: 
 
 # disqus comment
-disqus: false
-disqus_shortname: 
+disqus: true
+disqus_shortname: spherez 
 
 # google analytics
 googleTrackId: 
